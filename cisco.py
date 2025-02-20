@@ -39,5 +39,46 @@
 
 
 # loops
-while True:
-    print("Hello, world!")
+# while True:
+#     print("Hello, world!")
+
+
+
+#Counter
+# counter = 5
+# while counter != 0:
+#     print("Inside the loop.", counter)
+#     counter -= 1
+# print("Outside the loop.", counter)
+
+
+# #Magic number
+# secretNumber = 777
+# guess = int(input("Enter a number: "))
+# while guess != secretNumber:
+#     print("Ha ha! You're stuck in my loop!")
+#     guess = int(input("Enter a number: "))
+    
+# print("Well done, muggle! You are free now.")
+
+
+# For loop with the break and continue statements
+# break - example
+
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+
+# continue - example
+
+print("\nThe continue instruction:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
