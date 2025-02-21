@@ -95,3 +95,13 @@
 #     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
 #         continue
 #     print(i)
+    
+
+# word_without_vowel = ""
+# word = input("Enter your word: ")
+# word = word.upper()
+# for i in word:
+#     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
+#         continue
+#     word_without_vowel += i
+# print(word_without_vowel)
