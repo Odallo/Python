@@ -64,21 +64,34 @@
 
 # For loop with the break and continue statements
 # break - example
+# print("The break instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         break
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
 
-print("The break instruction:")
-for i in range(1, 6):
-    if i == 3:
-        break
-    print("Inside the loop.", i)
-print("Outside the loop.")
+
+# # continue - example
+
+# print("\nThe continue instruction:")
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print("Inside the loop.", i)
+# print("Outside the loop.")
 
 
-# continue - example
+# while True:
+#     word = input("Enter your word: ")
+#     if word == "Chupacabra":
+#         print("You have successfully entered your word")
+#         break
 
-print("\nThe continue instruction:")
-for i in range(1, 6):
-    if i == 3:
-        continue
-    print("Inside the loop.", i)
-print("Outside the loop.")
-
+# Vowel eater
+# word = input("Enter your word: ")
+# word = word.upper()
+# for i in word:
+#     if i == "A" or i == "E" or i == "I" or i == "O" or i == "U":
+#         continue
+#     print(i)
