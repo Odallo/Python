@@ -138,5 +138,7 @@ for i in beatles:
     beatles.remove("Stu SutCliffer")
     beatles.insert(0, "Ringo Starr")
     print(beatles)
+    del beatles[0]
+    print(beatles)
     break
     
