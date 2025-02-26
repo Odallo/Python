@@ -134,5 +134,9 @@ for i in beatles:
     beatles.append("Pete Best")
     beatles.append( "Stu SutCliffer")
     print(beatles)
+    beatles.remove("Pete Best")
+    beatles.remove("Stu SutCliffer")
+    beatles.insert(0, "Ringo Starr")
+    print(beatles)
     break
     
