@@ -118,9 +118,21 @@
  
 # print(a, b, c, d, e, f)
 
-hat_list = [1, 2, 3, 4, 5]  
-intNumber = int(input("Enter an integer number: "))
-hat_list[2] = intNumber
-hat_list.pop(-1)
-print(hat_list.__len__())
-print(hat_list)
+# hat_list = [1, 2, 3, 4, 5]  
+# intNumber = int(input("Enter an integer number: "))
+# hat_list[2] = intNumber
+# hat_list.pop(-1)
+# print(hat_list.__len__())
+# print(hat_list)
+
+
+beatles = []
+beatles.append("John Lennon")
+beatles.append("Paul McCartney")
+beatles.append("George Harrison")
+for i in beatles:
+    beatles.append("Pete Best")
+    beatles.append( "Stu SutCliffer")
+    print(beatles)
+    break
+    
