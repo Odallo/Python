@@ -106,14 +106,21 @@
 #     word_without_vowel += i
 # print(word_without_vowel)
 
-x = 4
-y = 1
+# x = 4
+# y = 1
  
-a = x & y
-b = x | y
-c = ~x  # tricky!
-d = x ^ 5
-e = x >> 2
-f = x << 2
+# a = x & y
+# b = x | y
+# c = ~x  # tricky!
+# d = x ^ 5
+# e = x >> 2
+# f = x << 2
  
-print(a, b, c, d, e, f)
+# print(a, b, c, d, e, f)
+
+hat_list = [1, 2, 3, 4, 5]  
+intNumber = int(input("Enter an integer number: "))
+hat_list[2] = intNumber
+hat_list.pop(-1)
+print(hat_list.__len__())
+print(hat_list)
