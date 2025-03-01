@@ -140,8 +140,36 @@
 # else:
 #     print("absent")
 
-my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
-my_list = list(dict.fromkeys(my_list))
+# my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# my_list = list(dict.fromkeys(my_list))
 
-print("The list with unique elements only:")
-print(my_list)
+# print("The list with unique elements only:")
+# print(my_list)
+
+
+
+# def greetings():
+#     return "Gutene Morgen"
+# print(greetings())
+
+def is_year_leap(year):
+    if year % 4 != 0:
+        return False
+    elif year % 100 != 0:
+        return True
+    elif year % 400 != 0:
+        return False
+    else:
+        return True
+   
+
+test_data = [1900, 2001, 2016, 1987]
+test_results = [False, True, True, False]
+for i in range(len(test_data)):
+    yr = test_data[i]
+    print(yr,"->",end="")
+    result = is_year_leap(yr)
+    if result == test_results[i]:
+        print("OK")
+    else:
+        print("Failed")
