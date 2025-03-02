@@ -174,35 +174,65 @@
 #     else:
 #         print("Failed")
 
-def is_year_leap(year):
-   if year % 4 != 0:
-        return False
-   elif year % 100 != 0:
-        return True
-   elif year % 400 != 0:
-        return False
-   else:
-        return True
+# def is_year_leap(year):
+#    if year % 4 != 0:
+#         return False
+#    elif year % 100 != 0:
+#         return True
+#    elif year % 400 != 0:
+#         return False
+#    else:
+#         return True
 
-def days_in_month(year, month):
-    if month == 2:
-        if is_year_leap(year):
-            return 29
-        else:
-            return 28
-    elif month in [1, 3, 5, 7, 8, 6, 9, 10, 12]:
-        return 31
+# def days_in_month(year, month):
+#     if month == 2:
+#         if is_year_leap(year):
+#             return 29
+#         else:
+#             return 28
+#     elif month in [1, 3, 5, 7, 8, 6, 9, 10, 12]:
+#         return 31
    
 
-test_years = [1900, 2000, 2016, 1987]
-test_months = [2, 2, 1, 11]
-test_results = [28, 29, 31, 30]
-for i in range(len(test_years)):
-    yr = test_years[i]
-    mo = test_months[i]
-    print(yr, mo, "->", end="")
-    result = days_in_month(yr, mo)
-    if result == test_results[i]:
-        print("OK")
-    else:
-        print("Failed")
+# test_years = [1900, 2000, 2016, 1987]
+# test_months = [2, 2, 1, 11]
+# test_results = [28, 29, 31, 30]
+# for i in range(len(test_years)):
+#     yr = test_years[i]
+#     mo = test_months[i]
+#     print(yr, mo, "->", end="")
+#     result = days_in_month(yr, mo)
+#     if result == test_results[i]:
+#         print("OK")
+#     else:
+#         print("Failed")
+
+
+# def is_prime(num):
+#     if num <= 1:
+#         return False
+#     for i in range(2, int(num**0.5) + 1):
+#         if num % i == 0:
+#             return False
+#     return True
+
+# for i in range(1, 20):
+#     if is_prime(i + 1):
+#         print(i + 1, end=" ")
+# print()
+
+# tup = 1, 2, 3, 2, 4, 5, 6, 2, 7, 2, 8, 9
+# duplicates = tup.count(2)
+
+# print(duplicates)    # outputs: 4
+
+d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
+d3 = {}
+ 
+for item in (d1, d2):
+    d3.update(item)
+ 
+print(d3)
+ 
+
