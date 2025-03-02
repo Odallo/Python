@@ -226,13 +226,19 @@
 
 # print(duplicates)    # outputs: 4
 
-d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
-d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
-d3 = {}
+# d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+# d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
+# d3 = {}
  
-for item in (d1, d2):
-    d3.update(item)
+# for item in (d1, d2):
+#     d3.update(item)
+#     tuple(d3)
  
-print(d3)
+# print(d3)
  
+# my_list = ["car", "Ford", "flower", "Tulip"]
+
+# t =  tuple(my_list)
+# print(t)
+
 
