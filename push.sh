@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "Auto-commit"
+git commit -m "python commits"
 git push origin main
