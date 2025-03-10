@@ -10,10 +10,21 @@
 # print("Data Type: ", array_3d.dtype)
 
 import numpy as np
-spaceship = np.array([2000, 3000, 5000, 7000])
+# spaceship = np.array([2000, 3000, 5000, 7000])
 
-print("Spaceship: ", spaceship)
-print("Size: ", spaceship.size)
-print("Shape: ", spaceship.shape)
-print("Data Type: ", spaceship.dtype)
-print ("Item size: ", spaceship.itemsize)
+# print("Spaceship: ", spaceship)
+# print("Size: ", spaceship.size)
+# print("Shape: ", spaceship.shape)
+# print("Data Type: ", spaceship.dtype)
+# print ("Item size: ", spaceship.itemsize)
+
+# A boolean index for even numbers
+# array_1d = np.array([8, 4, 7, 3, 4, 11])
+# even_index = array_1d % 2 == 0
+# even_numbers = array_1d[even_index]
+# print(even_numbers)  # Output: [8 4 4]
+
+# Select elements at odd indices 1, 3, 5, ...
+array_1d = np.array([1, 2, 3, 4, 5, 6])
+every_second = array_1d[1:4:2]
+print(every_second)  # Output: [2 4 6]
