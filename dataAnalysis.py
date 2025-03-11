@@ -27,4 +27,4 @@ import numpy as np
 # Select elements at odd indices 1, 3, 5, ...
 array_1d = np.array([1, 2, 3, 4, 5, 6])
 every_second = array_1d[1:4:2]
-print(every_second)  # Output: [2 4 6]
+print(every_second)  # Output: [2 4 6]steuu
